@@ -11,7 +11,7 @@ int main(int argc, char *argv[]) {
         english_time[strlen(english_time) - 1] = '\0';
     }
 
-    printf("hello %s!\n", argv[1]);
+    printf("Hello %s!\n", argv[1]);
     printf("It is currently %lu seconds from the UNIX zero time.\n", now);
     printf("In human readable form, that means %s!\n\n", english_time);
 
